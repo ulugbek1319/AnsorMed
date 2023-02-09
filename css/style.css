@@ -1,7 +1,13 @@
 /* Global */
+
 * {
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -10,6 +16,7 @@ body {
     line-height: 1.5;
     color: #444;
 }
+
 *:focus {
     outline: 2px dotted #de2e54;
     outline-offset: 2px;
@@ -153,6 +160,19 @@ body {
     opacity: 1;
 }
 
+.main-link-outline {
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.main-link-outline:hover {
+    border-color: transparent;
+    background-color: #de2e54;
+    color: #fff;
+}
+
+
 
 
 /* HERO */
@@ -253,6 +273,35 @@ body {
 .index-services-actions {
     display: flex;
     justify-content: center;
+}
+
+
+/* CTA */
+
+.cta {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #0eb4c1;
+    color: #fff;
+}
+
+.cta-heading {
+    text-align: center;
+    margin-top: 0;
+    font-size: 36px;
+    line-height: 1.2;
+    font-family:  "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+    margin-bottom: 40px;
+}
+
+.cta-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-links-items:not(:last-child) {
+    margin-right: 40px;
 }
 
 
