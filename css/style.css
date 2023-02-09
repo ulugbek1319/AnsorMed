@@ -1,0 +1,160 @@
+/* Global */
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+}
+*:focus {
+    outline: 2px dotted #de2e54;
+    outline-offset: 2px;
+}
+
+
+ /*CONTAINER */
+ .container {
+    width: 100%;
+    max-width: 1160px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto   ;
+}
+
+
+/* SITE HEADER */
+.site-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.site-header-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+/* SITE-LOGO */
+.site-logo {
+    display: flex;
+    align-items:center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #222 ;
+    text-decoration: none;
+}
+
+.site-logo-site-footer {
+    color: #fff ;
+}
+.site-logo:hover {
+    color: #de2e54;
+}
+
+.site-logo:active {
+    opacity: 0.6;
+}
+
+.site-logo-site-footer:active {
+    color: #fff ;
+}
+.site-logo-img {
+    margin-right: 16px;
+    border-radius: 50%;
+}
+
+
+/* SITENAV */
+.sitenav {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sitenav-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sitenav-item:not(:last-child) {
+    margin-right: 32px; 
+}   
+
+.sitenav-link {
+    display: block;
+    color: #222;
+    text-decoration: none;
+}
+
+.sitenav-link:hover {
+    color: #de2e54;  
+}
+
+.sitenav-list:active {
+    opacity: 0.6;
+}
+
+.sitenav-site-footer .sitenav-link {
+    color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover {
+    color: #de2e54;
+}
+
+.sitenav-site-footer .sitenav-link:active {
+    color: #fff;
+    opacity: 0.6;
+}
+/* MAIN LINK */
+.main-link {
+    display: inline-block;
+    padding: 10px 22px;
+    border: 2px solid #de2e54;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family:"Open Sans Condensed", "Arial", sans-serif;
+    letter-spacing: 2px;
+    background-color    : #de2e54;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+     
+}
+
+.main-link:hover {
+    background-color: #fff;
+    color: #de2e54;
+}
+
+.main-link:active {
+    background-color: #de2e54;
+    color: #fff;
+    opacity: 0.6;
+}
+
+
+
+
+/* SITE FOOTER */
+.site-footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #222;
+    color: #fff;
+}
+
+.site-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
